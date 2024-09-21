@@ -47,5 +47,7 @@ erro_padrao = desvio_padrao/(n**0.5)
 # Passando as variaveis descritas acima ...
 intervalos = st.t.interval(confidence=ic,df=n,loc=media_amostra,scale=erro_padrao)
 
+# Resultado esperado : 
+# (3.8169408998318475, 4.783059100168152)
 print("\n\n Intervalos de confiança ")
 print(intervalos,'\n\n')
